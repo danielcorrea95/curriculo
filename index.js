@@ -6,7 +6,7 @@ const path = require('path')
 const port = process.env.port || 3000
 
 app.set('view engine', 'ejs')
-app.use(express.static('public'))
+app.use(express.static(path.join(__dirname, 'public')))
 
 app.set('views', path.join(__dirname, 'views'))
 
