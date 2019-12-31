@@ -1,0 +1,37 @@
+*{
+    margin: 0px;   
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+.container{
+    width: 60%;
+    margin: auto;
+}
+.row{
+    display:block;
+    height: 120px;
+}
+.left{
+    text-align: left;
+    float: left;    
+    margin-top: 20px;
+}
+.right{
+    text-align: right;
+    float: right;    
+    margin-top: 20px;
+}
+.linha-horizontal {
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+    width: 100%;
+   }
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    margin: 5px 0px 5px 0px;
+
+}
+ul li{
+    margin-bottom: 5px;
+}
